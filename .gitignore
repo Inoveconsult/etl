@@ -1,0 +1,86 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+**/__pycache__/
+*.py[cod]
+**/*.pyc
+*$py.class
+
+# C extensions
+*.so
+
+# ----------------------
+# Distribution / packaging
+# ----------------------
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ----------------------
+# Tests / coverage
+# ----------------------
+htmlcov/
+.tox/
+.nox/
+.coverage*
+.cache
+.pytest_cache/
+
+# ----------------------
+# Jupyter
+# ----------------------
+.ipynb_checkpoints/
+
+# Notebooks experimentais
+notebooks/_scratch/
+notebooks/_old/
+
+# ----------------------
+# Environments / Secrets
+# ----------------------
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+
+# ----------------------
+# IDEs
+# ----------------------
+.vscode/
+.idea/
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Dados (NÃO versionar)
+# ----------------------
+Dados/
+Resultados/
+output/
+temp/
+
+# ----------------------
+# Modelos e artefatos
+# ----------------------
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.log
+
+# ----------------------
+# Figuras geradas
+# ----------------------
+figures/tmp/
+plots/tmp/
